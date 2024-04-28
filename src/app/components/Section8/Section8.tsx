@@ -5,7 +5,7 @@ const Section8 = () => {
   return (
     <div >
         <div className='mt-[5rem] mb-[5rem]'>
-            <h1 className='text-[30px] md:text-[40px] text-[#004D4A] font-[700] text-center md:mx-[19rem]'>{section8.section8.mainheading}</h1>
+            <h1 className='text-[30px] md:text-[40px] text-[#004D4A] font-[700] text-center md:mx-[9rem] lg:mx-[19rem]'>{section8.section8.mainheading}</h1>
             <div className='mx-6 md:mx-[12rem] mt-[3rem] '>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12 font-sans'>
                     <input type="text" placeholder={section8.section8.input1} className='border-b placeholder-opacity-[100%] placeholder-black pb-2 focus:outline-none' />
@@ -20,7 +20,7 @@ const Section8 = () => {
                 </div>
                 <button></button>
             </div>
-            <button className='bg-[#0ECFC6] rounded-full text-center ml-8 md:ml-[33rem] mt-8 w-[80%] py-3 md:py-2 md:w-[15%]'>{section8.section8.button}</button>
+            <button className='bg-[#0ECFC6] rounded-full text-center ml-8 md:ml-[23.5rem] lg:ml-[33rem] mt-8 w-[80%] py-3 md:py-2 md:w-[15%]'>{section8.section8.button}</button>
         </div>
     </div>
   )

@@ -31,7 +31,7 @@ const Nav = ({ openNav }: Props) => {
                 </div>
                 <div className='flex items-center  md:gap-12'>
                 {/* Nav Links */}
-                <div className='hidden md:block text-black '>
+                <div className='hidden md:block text-black font-sans'>
                     <ul className='flex gap-6'>
                         
                         {

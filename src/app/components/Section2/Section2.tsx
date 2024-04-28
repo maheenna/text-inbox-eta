@@ -47,7 +47,7 @@ const Feature = () => {
             </div>
             <div className='mt-[5rem] md:mt-[8rem] text-center'>
                 <p className=' text-[#0ECFC6] text-[20px] font-[500]'>{section2.section2.topheading}</p>
-                <h1 className='text-[#004D4A] text-[30px] mx-6 md:text-[40px] font-[700] md:mx-[20rem] mt-9 md:mt-3'>{section2.section2.mainheading}</h1>
+                <h1 className='text-[#004D4A] text-[30px] sm:mx-6 md:text-[40px] font-[700] md:mx-[12rem] lg:mx-[20rem] mt-9 md:mt-3'>{section2.section2.mainheading}</h1>
                 {/* cards */}
 
                 <div className='w-[70%] md:w-[85%] mt-[5rem] md:mt-[3rem] mb-[3rem] mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem]'>

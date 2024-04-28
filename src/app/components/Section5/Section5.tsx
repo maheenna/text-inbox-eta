@@ -42,19 +42,19 @@ const Section5 = () => {
         <Carousel additionalTransfrom={0} autoPlay={false}  arrows={false} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={true}>
 
           <Carousel1 
-          title="Emily Johnson" 
+          title="Mr.Starc" 
           image="/images/People1.png" 
           
           para={section5.section5.card1text} />
 
         <Carousel1 
-          title="William Smith"
+          title="Ms.Deno"
           image="/images/people2.png" 
           
           para={section5.section5.card2text} />
 
         <Carousel1 
-          title="James Brown" 
+          title="Mr.Starc" 
           image="/images/people3.png" 
           
           para={section5.section5.card2text}  />
@@ -66,13 +66,13 @@ const Section5 = () => {
           para={section5.section5.card1text}  />
 
         <Carousel1 
-          title="Benjamin Wilson" 
+          title="Ms.Deno" 
           image="/images/people2.png" 
          
           para={section5.section5.card2text}  />
 
         <Carousel1
-          title="Charlotte Davies" 
+          title="Mr. Sebestian" 
           image="/images/people3.png" 
           
           para={section5.section5.card2text}  />

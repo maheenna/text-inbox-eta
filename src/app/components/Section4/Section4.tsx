@@ -6,11 +6,11 @@ const Section4 = () => {
   return (
     <div className='my-[4rem]'>
         <div className='text-center'>
-        <h1 className=' text-[#004D4A] text-[30px] md:text-[40px] font-[700] mx-[2rem] md:mx-[18rem]'>
+        <h1 className=' text-[#004D4A] text-[30px] md:text-[40px] font-[700] mx-[2rem] md:mx-[12rem] lg:mx-[18rem]'>
             {section4.section4.mainheading}
         </h1>
         <p className='text-[24px] font-sans mt-7 md:mt-4 mx-3'>{section4.section4.description}</p>
-        <div className='w-[80%] md:w-[70%] mt-[3rem] md:mt-[3rem] mb-[3rem] mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem] relative'>
+        <div className='w-[80%] md:w-[70%] mt-[3rem] md:mt-[3rem] mb-[3rem] mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem] relative items-center'>
                     {/* 1st card */}
                     <div>
                         <div className='font-sans py-10 px-[2rem] text-start pb-[4rem] rounded-xl shadow-2xl transition-all'>

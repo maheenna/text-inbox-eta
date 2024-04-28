@@ -6,7 +6,7 @@ const Section6 = () => {
   return (
     <div className='mt-[5rem] mb-[3rem]'>
         <div className='text-center '>
-           <h1 className='md:text-[40px] font-[700] mx-6 text-[30px] md:mx-[24rem] text-[#004D4A]'>{section6.section6.heading}</h1>
+           <h1 className='md:text-[40px] font-[700] mx-6 text-[30px] md:mx-[11rem] lg:mx-[24rem] text-[#004D4A]'>{section6.section6.heading}</h1>
            <p className='text-[20px] font-sans mt-12 md:mt-5 px-4'>{section6.section6.description}
             </p> 
         </div>
