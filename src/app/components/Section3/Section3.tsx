@@ -10,7 +10,7 @@ const Section3 = () => {
           <div className=''>
             <h1 className='text-[30px] md:text-[40px] font-[700] text-[#004D4A]'>{section3.section3.mainheading}</h1>
             <p className='mt-6 text-[18px]'>{section3.section3.description}</p>
-            <button className=' px-10 py-4 sm:px-8 sm:py-3 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full   text-center mx-auto mt-9 text-white'>
+            <button className='hover:bg-[#003F3C] px-10 py-4 sm:px-8 sm:py-3 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full   text-center mx-auto mt-9 text-white'>
                             {section3.section3.button}
                     </button>
           </div>

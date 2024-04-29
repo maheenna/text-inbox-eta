@@ -1,6 +1,4 @@
 import React from 'react'
-import { BiCycling, BiShoppingBag } from 'react-icons/bi'
-import { HiBars3BottomRight } from 'react-icons/hi2'
 import Image from 'next/image'
 import logo from "../../../../public/images/logo.png"
 import { RiMenu5Line } from 'react-icons/ri'
@@ -9,7 +7,7 @@ import heading  from "../../../app/data.json"
 import navbutton  from "../../../app/data.json"
 import country from "../../../../public/images/country.png"
 import downarrow from "../../../../public/images/downarrow.png"
-import {Link} from "react-scroll/modules"
+import Link from "next/link"
 interface Props {
     openNav: () => void
 }
@@ -36,7 +34,7 @@ const Nav = ({ openNav }: Props) => {
                         {
                         (navlinks.navLinks as { firstlink: string;  href:string; }[]).map((link, index) => (
                             
-                            <Link to={link.href} smooth={true} offset={200} duration={300}>
+                            <Link href={link.href} >
                                     <li>
                                     {link.firstlink}
                                     </li>
@@ -54,7 +52,7 @@ const Nav = ({ openNav }: Props) => {
                     </div>
 
                 <div className='flex items-center space-x-4'>
-                    <button className='hidden sm:block px-6 py-2 sm:px-6 sm:py-2 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full item-center space-x-2 text-white'>
+                    <button className='hidden sm:block px-6 py-2 sm:px-6 sm:py-2 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full item-center space-x-2 text-white hover:bg-[#003F3C]'>
                             {navbutton.navbutton.button}
                     </button>
 

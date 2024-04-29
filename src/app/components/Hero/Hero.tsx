@@ -18,7 +18,7 @@ const Hero = () => {
       <h1 className='text-[#004D4A] md:text-[45px] text-[30px] text-center font-[700]'>{heroheading.hero.heroheading1}</h1>
       <h1 className='text-[#004D4A] md:text-[45px] text-[30px]  md:mx-0 text-center font-[700]'>{heroheading.hero.heroheading2}</h1>
       <p className='text-black text-[20px] md:mt-5 mt-8 md:mx-[16rem] text-center'>{heroheading.hero.herodescription}</p>
-      <button className=' px-6 py-2 sm:px-7 sm:py-3 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full flex  text-center mx-auto mt-9 text-white'>
+      <button className=' px-6 py-2 sm:px-7 sm:py-3 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full flex  text-center mx-auto mt-9 text-white hover:bg-[#003F3C]'>
                             {heroheading.hero.herobutton}
                     </button>
     </div>

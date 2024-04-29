@@ -74,7 +74,7 @@ const Feature = () => {
 
                     {/* 2nd card */}
                     <div>
-                        <div className='p-6 pb-[4rem] hover:bg-white rounded-xl shadow-2xl transition-all'>
+                        <div className='p-6 pb-[4rem]  rounded-xl hover:bg-[#F8F8F8] shadow-2xl transition-all'>
                             {/* Background Container */}
                             <div className='bg-[#0ECFC6] bg-opacity-20 w-[20%] h-[40px] flex items-center justify-center mx-auto rounded-xl'>
                                 {/* Inner Text */}
@@ -110,7 +110,7 @@ const Feature = () => {
                         </div>
                     </div>
                 </div>
-                <button className=' px-8 py-3 sm:px-8 sm:py-5 text-[14px] sm:text-[13px] bg-[#004D4A] transition-all duration-200  rounded-full flex  text-center mx-auto mt-9 text-white'>
+                <button className=' px-8 py-3 sm:px-8 sm:py-5 text-[14px] sm:text-[13px] hover:bg-[#003F3C] bg-[#004D4A] transition-all duration-200  rounded-full flex  text-center mx-auto mt-9 text-white'>
                             {section2.section2.section2button}
                     </button>
             </div>

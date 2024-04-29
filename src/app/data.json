@@ -9,11 +9,11 @@
         },
         {
             "firstlink": "Pricing",
-            "href": "Section6"
+            "href": "/Pricing"
         },
         {
             "firstlink": "Contact",
-            "href": "Section8"
+            "href": "/Contact"
         }
     ],
     "navbutton": {
