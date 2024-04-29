@@ -25,7 +25,7 @@ const Carousel = ({ title,image, para  }: Props) => {
   <FaStar/>
   <FaStar/>
   </div>
-  <div className='text-[#004D4A] md:mx-[4rem] font-[700] text-[24px] font-sans text-center mt-4'>
+  <div className='text-[#004D4A] md:mx-[4rem] font-[700] pb-[4rem] text-[20px] font-sans text-center mt-4'>
     <p >{para}</p>
     <p className='mt-4'>{title}</p>
   </div>

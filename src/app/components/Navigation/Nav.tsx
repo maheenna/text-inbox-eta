@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 import { BiCycling, BiShoppingBag } from 'react-icons/bi'
 import { HiBars3BottomRight } from 'react-icons/hi2'
@@ -10,7 +9,7 @@ import heading  from "../../../app/data.json"
 import navbutton  from "../../../app/data.json"
 import country from "../../../../public/images/country.png"
 import downarrow from "../../../../public/images/downarrow.png"
-
+import {Link} from "react-scroll/modules"
 interface Props {
     openNav: () => void
 }
@@ -37,8 +36,7 @@ const Nav = ({ openNav }: Props) => {
                         {
                         (navlinks.navLinks as { firstlink: string;  href:string; }[]).map((link, index) => (
                             
-                            <Link key={index}
-                                href={link.href}>
+                            <Link to={link.href} smooth={true} offset={200} duration={300}>
                                     <li>
                                     {link.firstlink}
                                     </li>

@@ -3,7 +3,7 @@ import section8 from "../../data.json"
 
 const Section8 = () => {
   return (
-    <div >
+    <div id='Section8'>
         <div className='mt-[5rem] mb-[5rem]'>
             <h1 className='text-[30px] md:text-[40px] text-[#004D4A] font-[700] text-center md:mx-[9rem] lg:mx-[19rem]'>{section8.section8.mainheading}</h1>
             <div className='mx-6 md:mx-[12rem] mt-[3rem] '>

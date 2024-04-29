@@ -5,6 +5,23 @@ import Carousel1 from "./carouel"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+const CustomDot: React.FC<{ onClick: () => void; active?: boolean }> = ({ onClick, active }) => {
+  return (
+      <button
+          style={{
+              background: active ? '#000' : '#ddd',
+              width: '10px',
+              height: '10px',
+              margin: '0 8px',
+              border: 'none',
+              borderRadius: '50%',
+              cursor: 'pointer',
+          }}
+          onClick={onClick}
+      />
+  );
+};
+
 const Section5 = () => {
     const responsive = {
 
@@ -39,7 +56,7 @@ const Section5 = () => {
             </p>
         </div>
         <div className='md:w-[100%] w-[90%] pb-7 mt-[rem] mb-[3rem] mx-auto'>
-        <Carousel additionalTransfrom={0} autoPlay={false}  arrows={false} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={true}>
+        <Carousel additionalTransfrom={0} autoPlay={false}  arrows={false} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={true}  >
 
           <Carousel1 
           title="Mr.Starc" 

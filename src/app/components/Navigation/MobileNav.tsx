@@ -1,7 +1,7 @@
 import React from 'react'
 import { ImCross } from 'react-icons/im'
-import Link from 'next/link'
 import navlinks from "../../../app/data.json"
+import {Link} from "react-scroll/modules"
 
 interface Props {
   showNav: boolean
@@ -25,7 +25,7 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
                         (navlinks.navLinks as { firstlink: string;  href:string; }[]).map((link, index) => (
                             
                             <Link key={index}
-                                href={link.href}>
+                                to={link.href} offset={300} duration={300} smooth={true} >
                                     <li className='text-[23px] font-bold my-8'>
                                     {link.firstlink}
                                     </li>
